@@ -1,4 +1,4 @@
-Enter file contents hereimport sys
+import sys
 import urllib
 import json
 import os

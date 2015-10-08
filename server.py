@@ -1,4 +1,4 @@
-Enter file contents hereimport json
+import json
 import urllib
 import urllib2
 from urlparse import urlparse, parse_qs

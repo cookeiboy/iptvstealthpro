@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.stealthpro" name="IPTV Stealth Pro" version="1.2.0" provider-name="CookieBoy Creations">
+  <requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Tv. HD Movies. Catch Up TV plus More</summary>
+    <description lang="en">Welcome to IPTV Stealth PRO. As if IPTV Stealth was not good enough?? the team behind stealth have been working hard to put together this new addon for you. All donations no matter how small make a huge difference so please feel free to make a small donation to help keep Stealth PRO alive. WWW.IPTVSTEALTH.COM - Donations can be made @ HTTP://PAYPAL.ME/COOKIEBOY</description>
+    <platform>all</platform>
+  </extension>
+</addon>
